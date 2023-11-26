@@ -183,9 +183,8 @@ body {
 }
 
 .footer {
-    background: wheat;
-    position: fixed; 
-    left: 0; bottom: 0; 
+    margin-top: 25px;
+    background: wheat; 
     padding: 10px; 
     color: #fff; 
     width: 100%;
@@ -210,5 +209,13 @@ body {
 
 .footer__gt{
     font-size: 50px;
+    color: #24292e;
+}
+.author__link{
+    font-size: 16px;
+    color: #24292e;
+}
+.date{
+    font-size: 16px;
     color: #24292e;
 }
