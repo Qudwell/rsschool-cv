@@ -6,6 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+
 }
 
 html {
@@ -175,6 +176,12 @@ body {
     font-size: 20px;
 }
 
+.contacts__link{
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+
 .footer {
     background: wheat;
     position: fixed; 
@@ -195,9 +202,13 @@ body {
     width: 100px;
     height: 60px;
 }
+
 .footer__yt{
     font-size: 50px;
+    color: #FF0000;
 }
+
 .footer__gt{
-    font-size: 100px;
+    font-size: 50px;
+    color: #24292e;
 }
