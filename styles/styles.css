@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,10 +6,97 @@
     list-style: none;
 }
 
-.container{
+@import url(../styles/fonts.css);
+
+body {
+    background: #E1D4C9;
+}
+
+.container {
     max-width: 1360px;
-    padding: 0 40px;
+    padding: 0 20px;
     margin: 0 auto;
     width: 100%;
     height: 100%;
+}
+
+.header {
+    margin: 20px;
+
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.banner__photo {
+    max-width: 1360px;
+    margin: 0 auto;
+    width: 100%;
+    height: 644px;
+    background: url(../imgs/img-hero.jpg);
+    border-radius: 40px;
+}
+
+.banner__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+    padding: 100px;
+
+}
+
+.banner__h {
+    font-family: 'Inter-SB', sans-serif;
+    font-size: 72px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 105%;
+    color: #E1D4C9;
+    width: 530px;
+}
+
+.banner__h__span {
+    color: #B0907A;
+}
+
+.banner__p {
+    color: #E1D4C9;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 530px;
+}
+
+.banner__btn {
+    padding: 20px 78px;
+    border: none;
+    border-radius: 100px;
+    color: #403F3D;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Inter-SB', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 24px */
 }
